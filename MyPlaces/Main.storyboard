@@ -228,10 +228,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v0e-nF-rqt">
-                                <rect key="frame" x="358" y="84" width="30" height="30"/>
+                                <rect key="frame" x="338" y="84" width="50" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="30" id="TR4-SP-JqF"/>
-                                    <constraint firstAttribute="height" constant="30" id="hRc-1J-yIc"/>
+                                    <constraint firstAttribute="width" constant="50" id="TR4-SP-JqF"/>
+                                    <constraint firstAttribute="height" constant="50" id="hRc-1J-yIc"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="clear" catalog="system"/>
@@ -239,16 +239,30 @@
                                     <action selector="closeVC" destination="Oo4-KU-CeA" eventType="touchUpInside" id="83e-4S-JRS"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1kC-Xx-lw5">
+                                <rect key="frame" x="338" y="802" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="CwU-ZR-7PD"/>
+                                    <constraint firstAttribute="width" constant="50" id="aCl-mE-u8Y"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="location.circle.fill" catalog="system"/>
+                                <connections>
+                                    <action selector="centerViewInUserLocation" destination="Oo4-KU-CeA" eventType="touchUpInside" id="24w-QB-sHZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sw6-wa-Tj0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="sw6-wa-Tj0" firstAttribute="bottom" secondItem="1kC-Xx-lw5" secondAttribute="bottom" constant="40" id="9As-yh-TqB"/>
                             <constraint firstAttribute="bottom" secondItem="k4S-CF-ttQ" secondAttribute="bottom" id="Lrp-Kr-cGd"/>
                             <constraint firstItem="v0e-nF-rqt" firstAttribute="top" secondItem="sw6-wa-Tj0" secondAttribute="top" constant="40" id="T2d-Yt-cAf"/>
                             <constraint firstItem="k4S-CF-ttQ" firstAttribute="trailing" secondItem="sw6-wa-Tj0" secondAttribute="trailing" id="Vp6-99-bfG"/>
                             <constraint firstItem="sw6-wa-Tj0" firstAttribute="trailing" secondItem="v0e-nF-rqt" secondAttribute="trailing" constant="40" id="Z04-Yj-P7H"/>
                             <constraint firstItem="k4S-CF-ttQ" firstAttribute="leading" secondItem="sw6-wa-Tj0" secondAttribute="leading" id="fdG-GQ-vBm"/>
                             <constraint firstItem="k4S-CF-ttQ" firstAttribute="top" secondItem="Ue3-Cg-GEI" secondAttribute="top" id="odY-Rw-jpD"/>
+                            <constraint firstItem="sw6-wa-Tj0" firstAttribute="trailing" secondItem="1kC-Xx-lw5" secondAttribute="trailing" constant="40" id="qF8-b6-FiC"/>
                         </constraints>
                     </view>
                     <connections>
@@ -287,22 +301,22 @@
                                                     </constraints>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="jsl-kc-PfT">
-                                                    <rect key="frame" x="101" y="8" width="83" height="74"/>
+                                                    <rect key="frame" x="100.99999999999999" y="8" width="54.333333333333329" height="74"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WxB-kn-FwD">
-                                                            <rect key="frame" x="0.0" y="0.0" width="83" height="28.666666666666668"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="54.333333333333336" height="28.666666666666668"/>
                                                             <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5eu-r4-ZwK">
-                                                            <rect key="frame" x="0.0" y="30.666666666666664" width="83" height="21.666666666666664"/>
+                                                            <rect key="frame" x="0.0" y="30.666666666666664" width="54.333333333333336" height="21.666666666666664"/>
                                                             <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="15"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIN-cp-OuZ">
-                                                            <rect key="frame" x="0.0" y="54.333333333333336" width="83" height="19.666666666666664"/>
+                                                            <rect key="frame" x="0.0" y="54.333333333333336" width="54.333333333333336" height="19.666666666666664"/>
                                                             <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="13"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -310,7 +324,7 @@
                                                     </subviews>
                                                 </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="90" placeholderIntrinsicHeight="39" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="a5s-KG-cDq" customClass="RatingControl" customModule="MyPlaces" customModuleProvider="target">
-                                                    <rect key="frame" x="192" y="23" width="228" height="44"/>
+                                                    <rect key="frame" x="163.33333333333334" y="25.666666666666671" width="256.66666666666663" height="39"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="starCount">
                                                             <integer key="value" value="5"/>
@@ -435,6 +449,7 @@
         <image name="AZ" width="25" height="24"/>
         <image name="Universal" width="533.33331298828125" height="533.33331298828125"/>
         <image name="clear" catalog="system" width="128" height="114"/>
+        <image name="location.circle.fill" catalog="system" width="128" height="121"/>
         <image name="map" width="50" height="50"/>
         <systemColor name="secondarySystemGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

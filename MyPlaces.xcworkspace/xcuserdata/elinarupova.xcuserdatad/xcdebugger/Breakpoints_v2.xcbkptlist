@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2BF5A960-5D42-41E7-BDDD-74A772287175"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "633AE227-CCCC-4421-9278-029DA8E8B1FC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyPlaces/ViewRatingControl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "updateButtonSelectionStates()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF553481-EBF4-4FE8-A632-78A293685AFC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyPlaces/ViewRatingControl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "rating"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "EF553481-EBF4-4FE8-A632-78A293685AFC - 5b2d3f0e36e71136"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyPlaces.ViewRatingControl.rating.getter : Swift.Int"
+                  moduleName = "MyPlaces"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elinarupova/Desktop/Projects/Apps/MyPlaces/MyPlaces/ViewRatingControl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "EF553481-EBF4-4FE8-A632-78A293685AFC - 84bb5829f062d22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyPlaces.ViewRatingControl.rating.setter : Swift.Int"
+                  moduleName = "MyPlaces"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elinarupova/Desktop/Projects/Apps/MyPlaces/MyPlaces/ViewRatingControl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "EF553481-EBF4-4FE8-A632-78A293685AFC - 8c632406995041bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyPlaces.ViewRatingControl.rating.modify : Swift.Int"
+                  moduleName = "MyPlaces"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elinarupova/Desktop/Projects/Apps/MyPlaces/MyPlaces/ViewRatingControl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "EF553481-EBF4-4FE8-A632-78A293685AFC - 23c6069886068e22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyPlaces.ViewRatingControl.rating.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MyPlaces"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elinarupova/Desktop/Projects/Apps/MyPlaces/MyPlaces/ViewRatingControl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "EF553481-EBF4-4FE8-A632-78A293685AFC - 8b3398095781deaf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyPlaces.ViewRatingControl.init(frame: __C.CGRect) -&gt; MyPlaces.ViewRatingControl"
+                  moduleName = "MyPlaces"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elinarupova/Desktop/Projects/Apps/MyPlaces/MyPlaces/ViewRatingControl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "EF553481-EBF4-4FE8-A632-78A293685AFC - 6fff95a643e67036"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyPlaces.ViewRatingControl.init(coder: __C.NSCoder) -&gt; MyPlaces.ViewRatingControl"
+                  moduleName = "MyPlaces"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elinarupova/Desktop/Projects/Apps/MyPlaces/MyPlaces/ViewRatingControl.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3CF61D4-4625-4F63-9C24-67D87CC97199"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyPlaces/ViewRatingControl.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "updateButtonSelectionStates()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
